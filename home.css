@@ -1,0 +1,175 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.net1 {
+    background-image: url(./images/netImage1.png);
+}
+
+.top {
+    background:
+     linear-gradient(270deg, rgba(0, 16, 34, 0) 0%, rgba(25, 27, 27, 0.178) 95%),
+     url("./images/background.jpg");
+     background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%; 
+    border-bottom: 8px solid #222;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.net-logo {
+    margin: 20px 0px 0px 30px;
+}
+
+.identify {
+    margin: 0px 30px 0px 0px;
+}
+
+.top-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.fl {
+    font-weight: 600;
+}
+
+#ig {
+    margin: 0 auto;
+}
+
+.pr {
+    text-align: center;
+    bottom: 40px;
+}
+
+.pre {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 8px solid #222;
+}
+
+.re {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+.reg {
+    font-size: 1.625rem;
+    font-weight: normal;
+}
+
+.tele {
+    padding-right: 90px;
+}
+
+.fo {
+    border-bottom: 8px solid #222;
+    text-align: center;
+}
+
+.fi {
+    font-size: 4rem;
+    margin: 30px 0 30px 0;
+}
+
+.input-group {
+    margin: 40px auto 0 auto;
+}
+
+.page-footer {
+    margin: 40px;
+}
+
+.row {
+    padding-top: 20px;
+}
+
+li {
+    line-height: 2em;
+}
+
+button {
+    margin: 25px 0px;
+}
+
+.fa-globe {
+    margin-right: 15px;
+}
+
+h6 {
+    padding-top: 20px;
+}
+
+#angle {
+    margin-left: 5px;
+}
+
+button:focus { 
+    outline-color: black; 
+} 
+
+.card {
+    border: none;
+    background-color: black;
+    border: black;
+}
+
+
+
+
+/* Media Query */
+@media screen and (min-width:991px) {
+    #accordion {
+        padding-left: 24%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .accord-card{
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .nav1 {
+        display: block;
+        text-align: center;
+    }
+
+    .regar {
+        padding-top: 30px;
+    }
+
+    .tik {
+        width: 400px;
+    }
+
+    #accordion {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tik {
+        width: 100%;
+    }
+}
+
